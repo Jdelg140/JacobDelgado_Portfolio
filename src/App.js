@@ -1,6 +1,7 @@
 import React from 'react';
-import Nav from './components/Navbar'
 import Aboutme from './components/Aboutme'
+import Nav from './components/Navbar'
+
 
 function App() {
   return (
