@@ -5,9 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&family=Sigmar&display=swap');
 
 @layer base{
-  body{
-    @apply font-[Raleway]
-  }
+ html{
+  font-family: Proxima Nova, system-ui, sans-serif;
+ }
+  
   li{
     @apply px-4;
     @apply cursor-pointer
