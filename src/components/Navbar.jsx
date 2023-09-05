@@ -5,7 +5,7 @@ import {BsFillPersonLinesFill} from "react-icons/bs"
 
 const Navbar = () => {
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#294d83] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-blue-500 text-gray-300">
       <div>
         <ul className="flex">
           <li>About Me</li>
