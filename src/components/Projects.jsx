@@ -1,46 +1,137 @@
 import React from "react";
-import HTML from "../assets/html.png";
-import CSS from "../assets/css.png";
-import JS from "../assets/javascript.png";
-import REACTIMG from "../assets/react.png";
-import MONGO from "../assets/mongo.png";
-import NODE from "../assets/node.png";
 function Projects() {
   return (
-    <div name='projects' className='bg-blue-500 w-full h-screen'>
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-        <div>
-          <p className='text-4xl font-bold inline border-b-4 border-gray-300 text-gray-300 py-2'>Projects</p>
+    <div
+      name="projects"
+      className="bg-[#2f3235] text-gray-300 w-full md:h-screen"
+    >
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+        <div className="pb-8">
+          <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-blue-500 py-3">
+            Projects
+          </p>
+          <p className="text-2xl font-bold my-8">
+            Here are some projects I have done or working on currently!
+          </p>
         </div>
 
-        <div className='w-full grid grid-cols-2 gap-4 text-center py-8 mt-4'>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-gray-300'>
-            <img className='w-20 mx-auto' src={HTML} alt="HTML icon"></img>
-            <p className='my-4  text-black font-bold'>HTML</p>
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 ">
+          <div className=" bg-gray-500 shadow-sm shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto">
+            <div className="opacity-50 group-hover:opacity-100 hover:smooth">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                ReadMe Generator
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://github.com/Jdelg140/Pro-Readme_creator/tree/main/utils#readme">
+                  <button className=" opacity-0 group-hover:opacity-100 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/Jdelg140/Pro-Readme_creator">
+                  <button className=" opacity-0 group-hover:opacity-100 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
           </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-gray-300'>
-            <img className='w-20 mx-auto' src={CSS} alt="HTML icon"></img>
-            <p className='my-4 text-black font-bold'>CSS</p>
+          <div className=" bg-gray-500 shadow-sm shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto">
+            <div className="opacity-50 group-hover:opacity-100 hover:smooth">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                E-Commerce API's
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://drive.google.com/file/d/1oilxT4hbd_hlz_PmTZr866kduCXeD8Ew/view">
+                  <button className=" opacity-0 group-hover:opacity-100 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/Jdelg140/E-Commerce-Backend">
+                  <button className=" opacity-0 group-hover:opacity-100 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
           </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-gray-300'>
-            <img className='w-20 mx-auto' src={JS} alt="HTML icon"></img>
-            <p className='my-4 text-black font-bold'>JavaScript</p>
+          <div className=" bg-gray-500 shadow-sm shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto">
+            <div className="opacity-50 group-hover:opacity-100 hover:smooth">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                ReadMe Generator
+              </span>
+              <div className="pt-8 text-center">
+                <a href="/">
+                  <button className=" opacity-0 group-hover:opacity-100 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="/">
+                  <button className=" opacity-0 group-hover:opacity-100 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
           </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-gray-300'>
-            <img className='w-20 mx-auto' src={REACTIMG} alt="HTML icon"></img>
-            <p className='my-4 text-black font-bold'>React</p>
+          <div className=" bg-gray-500 shadow-sm shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto">
+            <div className="opacity-50 group-hover:opacity-100 hover:smooth">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                ReadMe Generator
+              </span>
+              <div className="pt-8 text-center">
+                <a href="/">
+                  <button className=" opacity-0 group-hover:opacity-100 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="/">
+                  <button className=" opacity-0 group-hover:opacity-100 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
           </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-gray-300'>
-            <img className='w-20 mx-auto' src={MONGO} alt="HTML icon"></img>
-            <p className='my-4 text-black font-bold'>MongoBD</p>
+          <div className=" bg-gray-500 shadow-sm shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto">
+            <div className="opacity-50 group-hover:opacity-100 hover:smooth">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                ReadMe Generator
+              </span>
+              <div className="pt-8 text-center">
+                <a href="/">
+                  <button className=" opacity-0 group-hover:opacity-100 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="/">
+                  <button className=" opacity-0 group-hover:opacity-100 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
           </div>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 bg-gray-300'>
-            <img className='w-20 mx-auto' src={NODE} alt="HTML icon"></img>
-            <p className='my-4 text-black font-bold'>Node.JS</p>
+          <div className=" bg-gray-500 shadow-sm shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto">
+            <div className="opacity-50 group-hover:opacity-100 hover:smooth">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                ReadMe Generator
+              </span>
+              <div className="pt-8 text-center">
+                <a href="/">
+                  <button className=" opacity-0 group-hover:opacity-100 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="/">
+                  <button className=" opacity-0 group-hover:opacity-100 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
     </div>
   );
 }
