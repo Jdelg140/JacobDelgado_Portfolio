@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/jacobdelgado_portfolio/static/css/main.de4edf5b.css",
+    "main.js": "/jacobdelgado_portfolio/static/js/main.b1503dd6.js",
+    "static/media/JacobDelgado.pdf": "/jacobdelgado_portfolio/static/media/JacobDelgado.25829dba603c9ef012f0.pdf",
+    "index.html": "/jacobdelgado_portfolio/index.html",
+    "main.de4edf5b.css.map": "/jacobdelgado_portfolio/static/css/main.de4edf5b.css.map",
+    "main.b1503dd6.js.map": "/jacobdelgado_portfolio/static/js/main.b1503dd6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de4edf5b.css",
+    "static/js/main.b1503dd6.js"
+  ]
+}
