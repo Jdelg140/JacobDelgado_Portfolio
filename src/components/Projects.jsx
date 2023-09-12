@@ -54,18 +54,18 @@ function Projects() {
               </div>
             </div>
           </div>
-          <div className=" bg-gray-500 shadow-sm shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto">
+          <div className=" bg-gray-500 shadow-sm shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto">
             <div className="opacity-50 group-hover:opacity-100 hover:smooth">
               <span className="text-2xl font-bold text-white tracking-wider">
-                ReadMe Generator
+                Live Standings App (Group Project)
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://juanx198522.github.io/Sport-Standings-Tracker/#">
                   <button className=" opacity-0 group-hover:opacity-100 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/juanx198522/Sport-Standings-Tracker">
                   <button className=" opacity-0 group-hover:opacity-100 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -76,15 +76,15 @@ function Projects() {
           <div className=" bg-gray-500 shadow-sm shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto">
             <div className="opacity-50 group-hover:opacity-100 hover:smooth">
               <span className="text-2xl font-bold text-white tracking-wider">
-                ReadMe Generator
+                Logo Builder
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://drive.google.com/file/d/1QOTsqJWIxjINlQpTiiB3HfCOK5mXB9HJ/view">
                   <button className=" opacity-0 group-hover:opacity-100 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/Jdelg140/Logo-Builder">
                   <button className=" opacity-0 group-hover:opacity-100 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
