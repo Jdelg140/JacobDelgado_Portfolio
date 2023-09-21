@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jacobdelgado_portfolio/static/css/main.f5ebc5a7.css",
-    "main.js": "/jacobdelgado_portfolio/static/js/main.2c75c0ab.js",
+    "main.js": "/jacobdelgado_portfolio/static/js/main.8d6f9076.js",
     "static/media/Logow.png": "/jacobdelgado_portfolio/static/media/Logow.11a4fb1ab98037669488.png",
     "static/media/Jdlogo.png": "/jacobdelgado_portfolio/static/media/Jdlogo.43a778d8ed2d62fe18e6.png",
     "static/media/JacobDelgado.pdf": "/jacobdelgado_portfolio/static/media/JacobDelgado.25829dba603c9ef012f0.pdf",
@@ -14,10 +14,10 @@
     "static/media/javascript.png": "/jacobdelgado_portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/jacobdelgado_portfolio/index.html",
     "main.f5ebc5a7.css.map": "/jacobdelgado_portfolio/static/css/main.f5ebc5a7.css.map",
-    "main.2c75c0ab.js.map": "/jacobdelgado_portfolio/static/js/main.2c75c0ab.js.map"
+    "main.8d6f9076.js.map": "/jacobdelgado_portfolio/static/js/main.8d6f9076.js.map"
   },
   "entrypoints": [
     "static/css/main.f5ebc5a7.css",
-    "static/js/main.2c75c0ab.js"
+    "static/js/main.8d6f9076.js"
   ]
 }
