@@ -1,14 +1,23 @@
 {
   "files": {
-    "main.css": "/jacobdelgado_portfolio/static/css/main.de4edf5b.css",
-    "main.js": "/jacobdelgado_portfolio/static/js/main.b1503dd6.js",
+    "main.css": "/jacobdelgado_portfolio/static/css/main.f5ebc5a7.css",
+    "main.js": "/jacobdelgado_portfolio/static/js/main.2c75c0ab.js",
+    "static/media/Logow.png": "/jacobdelgado_portfolio/static/media/Logow.11a4fb1ab98037669488.png",
+    "static/media/Jdlogo.png": "/jacobdelgado_portfolio/static/media/Jdlogo.43a778d8ed2d62fe18e6.png",
     "static/media/JacobDelgado.pdf": "/jacobdelgado_portfolio/static/media/JacobDelgado.25829dba603c9ef012f0.pdf",
+    "static/media/Profile.png": "/jacobdelgado_portfolio/static/media/Profile.15b52651275c9d6e544a.png",
+    "static/media/react.png": "/jacobdelgado_portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/jacobdelgado_portfolio/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "/jacobdelgado_portfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/github.png": "/jacobdelgado_portfolio/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/tailwind.png": "/jacobdelgado_portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/javascript.png": "/jacobdelgado_portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/jacobdelgado_portfolio/index.html",
-    "main.de4edf5b.css.map": "/jacobdelgado_portfolio/static/css/main.de4edf5b.css.map",
-    "main.b1503dd6.js.map": "/jacobdelgado_portfolio/static/js/main.b1503dd6.js.map"
+    "main.f5ebc5a7.css.map": "/jacobdelgado_portfolio/static/css/main.f5ebc5a7.css.map",
+    "main.2c75c0ab.js.map": "/jacobdelgado_portfolio/static/js/main.2c75c0ab.js.map"
   },
   "entrypoints": [
-    "static/css/main.de4edf5b.css",
-    "static/js/main.b1503dd6.js"
+    "static/css/main.f5ebc5a7.css",
+    "static/js/main.2c75c0ab.js"
   ]
 }
