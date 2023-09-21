@@ -2,23 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&family=Sigmar&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto&family=Sigmar&display=swap");
 
-@layer base{
- html{
-  font-family: Proxima Nova, system-ui, sans-serif;
- }
-  
-  li{
+@layer base {
+  html {
+    font-family: Proxima Nova, system-ui, sans-serif;
+  }
+
+  li {
     @apply px-4;
-    @apply cursor-pointer font-bold 
+    @apply cursor-pointer font-bold;
   }
 
   span {
-    @apply text-2xl font-bold text-white tracking-wider
+    @apply text-2xl font-bold text-white tracking-wider;
   }
 }
-.content-div{
+.content-div {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -26,16 +26,16 @@
 }
 @layer components {
   .card {
-    background-color: theme('colors.white');
-    border-radius: theme('borderRadius.lg');
-    padding: theme('spacing.6');
-    box-shadow: theme('boxShadow.xl');
+    background-color: theme("colors.white");
+    border-radius: theme("borderRadius.lg");
+    padding: theme("spacing.6");
+    box-shadow: theme("boxShadow.xl");
   }
 }
 
 .cursor::after {
   display: block;
-  content: '';
+  content: "";
   position: absolute;
   width: 4px;
   height: 100%;
@@ -43,5 +43,3 @@
   animation: cursor 0.6s linear infinite alternate;
   will-change: opacity;
 }
- 
-

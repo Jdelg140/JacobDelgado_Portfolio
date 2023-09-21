@@ -4,12 +4,20 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 import Resume from "../assets/JacobDelgado.pdf";
+import Logo from "../assets/Jdlogo.png";
+import Logow from "../assets/Logow.png";
 
 const Navbar = () => {
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-blue-500 text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r to-cyan-500 from-gray-500 text-white text-xl">
       <div>
-        <ul className="flex">
+        <ul className="flex items-center">
+          <li>
+            <img
+              className=" block w-40 h-27 items-center bg-contain "
+              src={Logow}
+            ></img>
+          </li>
           <li>
             <Link to="home" smooth={true} duration={500}>
               Home
@@ -51,18 +59,19 @@ const Navbar = () => {
               GitHub <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center padding-10  ml-[-100px] hover:ml-[-8px] duration-300 bg-[#aa2a2a]">
+          {/* <li className="w-[160px] h-[60px] flex justify-between items-center padding-10  ml-[-100px] hover:ml-[-8px] duration-300 bg-[#aa2a2a]">
             <a
               className="flex justify-between items-center w-full text-gray-300 "
               href="/"
             >
               Email <HiOutlineMail size={30} />
             </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center padding-10  ml-[-100px] hover:ml-[-8px] duration-300 bg-[#646669] rounded-br-lg">
+          </li> */}
+          <li className="w-[160px] h-[60px] flex justify-between items-center padding-10  ml-[-100px] hover:ml-[-8px] duration-300 bg-[#fd3e3e] rounded-br-lg">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href={Resume} download="Resume"
+              href={Resume}
+              download="Resume"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
