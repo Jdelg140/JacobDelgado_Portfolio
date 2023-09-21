@@ -13,6 +13,10 @@
     @apply px-4;
     @apply cursor-pointer font-bold 
   }
+
+  span {
+    @apply text-2xl font-bold text-white tracking-wider
+  }
 }
 .content-div{
   background-repeat: no-repeat;
@@ -20,10 +24,24 @@
   background-position: center;
   height: 250px;
 }
-/* .content-div:hover{
-  background-color: linear-gradient(
-    to right
-    rgba(112, 157, 255, 0.8),
-    hsla(242, 74%, 61%, 0.8)
-  )!important;
-} */
+@layer components {
+  .card {
+    background-color: theme('colors.white');
+    border-radius: theme('borderRadius.lg');
+    padding: theme('spacing.6');
+    box-shadow: theme('boxShadow.xl');
+  }
+}
+
+.cursor::after {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 100%;
+  background-color: #fff;
+  animation: cursor 0.6s linear infinite alternate;
+  will-change: opacity;
+}
+ 
+

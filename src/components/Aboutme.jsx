@@ -3,13 +3,14 @@ import React from "react";
 const Aboutme = () => {
   return (
     <div name="aboutme" className="w-full h-screen bg-[#2f3235] ">
-      <div className=" max-w-[1000px] max-h-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <div>
-          <p className="text-4xl font-bold inline border-b-4 border-blue-500 text-gray-300 py-3">
+      <div className=" max-w-[1000px] max-h-[1000px] mx-auto px-8 flex flex-col justify-center h-full ">
+        <div className="card pb-5">
+        <div >
+          <p className="text-4xl font-bold inline border-b-4  border-[#2f3235] text-[#2f3235] py-3">
             About Me
           </p>
         </div>
-        <div className="text-blue-500 text-lg font-bold py-7">
+        <div className="text-[#2f3235] text-lg font-bold pt-10 tracking-wider">
           I'm Jacob Delgado, a motivated and adaptable professional with a
           passion for both business and technology. With a solid foundation in
           International Business from Florida International University, I've
@@ -19,7 +20,10 @@ const Aboutme = () => {
           dynamics of commerce and a strong ability to navigate diverse cultures
           and markets. However, my journey has taken an exciting turn towards
           the world of technology, as I'm currently pursuing my passion for Full
-          Stack Software Development.As I continue my education in software
+          Stack Software Development. 
+        </div>
+        <div className="text-[#2f3235] text-lg font-bold pt-10 tracking-wider">
+        As I continue my education in software
           development, I'm deeply motivated to bridge the gap between business
           and technology. My diverse background equips me with a unique
           perspective to understand user needs, strategic planning, and
@@ -27,6 +31,8 @@ const Aboutme = () => {
           technologies and methodologies that will enable me to build
           cutting-edge applications that can shape the future.
         </div>
+        </div>
+        
       </div>
     </div>
   );

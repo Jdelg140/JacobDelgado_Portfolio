@@ -35,7 +35,7 @@ const Navbar = () => {
 
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0 ">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center padding-10  ml-[-100px] hover:ml-[-8px] duration-300 bg-[#294d83]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center padding-10  ml-[-100px] hover:ml-[-8px] duration-300 bg-[#294d83] rounded-tr-lg">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/jacobdelgado/"
@@ -59,7 +59,7 @@ const Navbar = () => {
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center padding-10  ml-[-100px] hover:ml-[-8px] duration-300 bg-[#646669]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center padding-10  ml-[-100px] hover:ml-[-8px] duration-300 bg-[#646669] rounded-br-lg">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href={Resume} download="Resume"
