@@ -8,7 +8,7 @@ import Tailwind from "../assets/tailwind.png";
 const Home = () => {
   return (
     <div
-      name="home"
+      
       className="w-full h-screen bg-gradient-to-r to-cyan-500 from-blue-500 "
     >
       <div className=" max-w-[1000px] max-h-[1000px] mx-auto px-8 flex flex-col justify-center h-full">

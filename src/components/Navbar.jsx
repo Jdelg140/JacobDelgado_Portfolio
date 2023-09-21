@@ -2,14 +2,14 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import { Link } from "react-scroll";
 import Resume from "../assets/JacobDelgado.pdf";
 import Logo from "../assets/Jdlogo.png";
 import Logow from "../assets/Logow.png";
 
+
 const Navbar = () => {
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r to-cyan-500 from-gray-500 text-white text-xl">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r to-cyan-500 from-gray-500 text-white text-xl ">
       <div>
         <ul className="flex items-center">
           <li>
@@ -19,24 +19,24 @@ const Navbar = () => {
             ></img>
           </li>
           <li>
-            <Link to="home" smooth={true} duration={500}>
+            <a href="/">
               Home
-            </Link>
+            </a>
           </li>
           <li>
-            <Link to="aboutme" smooth={true} duration={500}>
+          <a href="/aboutme">
               About Me
-            </Link>
+            </a>
           </li>
           <li>
-            <Link to="projects" smooth={true} duration={500}>
+          <a href="/projects">
               Projects
-            </Link>
+            </a>
           </li>
           <li>
-            <Link to="contact" smooth={true} duration={500}>
+          <a href="/contact">
               Contact
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

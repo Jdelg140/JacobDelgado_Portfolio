@@ -3,11 +3,11 @@ function Projects() {
   return (
     <div
       name="projects"
-      className=" w-full h-screen font-bold md:h-screen bg-gradient-to-r to-cyan-500 from-blue-500 text-gray-300"
+      className=" w-full h-screen font-bold md:h-screen bg-gradient-to-r to-cyan-500 from-blue-500"
     >
-      <div className="max-w-[1000px] max-h-[1000px] mx-auto px-8 flex flex-col justify-center h-full ">
-        <div className="card pb-20">
-          <div className="pb-8">
+      <div className="max-w-[1000px] max-h-[1000px] mx-auto  flex flex-col justify-center h-full pt-24 ">
+        <div className="card min-h-fit">
+          <div className="">
             <p className="text-4xl font-bold inline border-b-4 text-[#2f3235] border-[#2f3235] py-3">
               Projects
             </p>
@@ -19,7 +19,7 @@ function Projects() {
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 ">
             <div className=" bg-blue-500 shadow-sm shadow-[#040c16] group container rounded-md flex text-center justify-center items-center mx-auto">
               <div className="pt-3">
-                <p className="text-2xl font-bold text-white px-10">
+                <p className="text-2xl font-bold text-white px-12">
                   Event Share (Group Project)
                 </p>
 

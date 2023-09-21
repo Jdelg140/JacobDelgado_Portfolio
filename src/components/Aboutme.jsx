@@ -5,15 +5,15 @@ const Aboutme = () => {
   return (
     <div
       name="aboutme"
-      className="w-full h-screen font-bold md:h-screen bg-gradient-to-r to-cyan-500 from-blue-500 "
+      className="w-full h-auto font-bold md:h-screen bg-gradient-to-r to-cyan-500 from-blue-500  "
     >
-      <div className=" max-w-[1000px] max-h-[1000px] mx-auto px-8 flex flex-col justify-center h-full mb-10 ">
-        <div className="card mb-32">
+      <div className=" max-w-[1000px] max-h-[1000px] mx-auto px-8 my-auto flex flex-col justify-center h-full ">
+        <div className="card">
           <div className="flex justify-between items-baseline">
             <p className=" text-4xl font-bold border-b-4  border-[#2f3235] text-[#2f3235] py-3">
               About Me
             </p>
-            <img src={Profile} className="rounded w-30 mt-10 pr-10 "></img>
+            <img src={Profile} className="rounded w-[150px] "></img>
           </div>
 
           <div className="text-[#2f3235] text-lg font-bold pt-10 tracking-wider">
